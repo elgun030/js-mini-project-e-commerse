@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Sign in</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            max-width: 1920px;
+            margin: 0 auto;
+        }
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="w-full flex py-[39.27px] px-[120px]">
+    <div class="flex min-h-screen w-full">
+        <div class="flex flex-col  w-full md:w-1/2 p-8 bg-card text-card-foreground">
+          <div class="flex items-center mb-8 gap-20">
+
+  <div class="flex space-x-2 w-[65px]">
+    <img src="./image sign in //Logo.svg" alt="">
+            </div>
+            <button class=" bg-[#1D1D1D] text-white  font-medium text-base leading-[21.6px] flex gap-2.5 w-[109.69px] px-[9.5px] py-[16.5px]  h-[41px] text-center items-center rounded-md "><img class="w-[14.69px]"    src="/image sign in //Vector.svg" alt=""> English</button>
+          </div>
+      <div class="mt-[79.73px] mb-[166px]">
+        <h1 class="text-4xl font-black mb-4 text-9xl leading-[148.8px]">Sign in <span class="text-[#FFC700]">.</span></h1>
+      </div>
+
+          <form class="space-y-4">
+            <div class="mb-10">
+              <h2 for="email" class="font-medium text-base leading-3 h-3 mb-4">EMAIL</h2>
+              <input id="email" type="email" class="w-[626px] border border-black rounded-lg h-[48px]  text-black" />
+            </div>
+            <div class="mb-10">
+              <h2 for="password" class="font-medium text-base leading-3 h-3 mb-4">PASSWORD</h2>
+              <div class="relative ">
+                <input id="password" type="password" class="w-[626px] border border-black rounded-lg h-[48px]  text-black"  />
+                
+              </div>
+            </div>
+            <div class="flex items-center gap-[300px] mt-10 ">
+              <div class="flex items-center gap-2.5">
+                <input id="remember-me" type="radio" class="h-4 w-4 text-primary focus:ring-primary border-input rounded" />
+                <h2 for="remember-me" class="font-medium text-base leading-3">Remember me</h2>
+              </div>
+              <div class="text-sm">
+                <a href="#" class="font-medium text-base leading-3">Recover my password</a>
+              </div>
+            </div>
+            <div class=" mt-10 mb-[10]">
+              <button type="submit" class=" text-white bg-[#1D1D1D] w-[626px] h-[48px] rounded-lg font-medium text-base leading-[24.8px] flex justify-between text-center items-center px-[11.5px] py-4">
+                Sign in
+                <span class="ml-2"><i class="fa-solid fa-arrow-right"></i></span>
+              </button>
+            </div>
+            <div class="font-medium text-base leading-3 flex gap-1">
+                <div>
+                    <h2>New here?</h2>
+                </div>
+                <div>
+                    <h2 class="border-b-2 border-black ">Create an account</h2>
+                </div>
+            </div>
+          </form>
+        </div>
+      
+        <div class="hidden md:block md:w-1/2 bg-cover bg-center"  >
+          <img src="./image sign in //image sign in / 24.svg" alt="Anime jacket design" class="w-full h-full object-cover" />
+        </div>
+      </div>
+</body>
+</html>
